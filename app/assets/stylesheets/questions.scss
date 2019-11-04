@@ -1,0 +1,28 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// 1.Variables
+// Defining a variable
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+// 2.Nesting
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+// 3.Chaining
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
